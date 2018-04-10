@@ -21,6 +21,8 @@ RUN apt-get update && apt-get install -y \
     zlib1g-dev \
     liblzma-dev
 
+RUN pip install parasail
+
 ################################################################################
 ########### set variables ######################################################
 
